@@ -398,7 +398,8 @@ sudo cp -i /etc/kubernetes/admin.conf ~/.kube/config
 
 
 ### CNI
-kubectl apply -f https://github.com/elaph-hilful/cks-course-environment/raw/master/cluster-setup/weave.yaml
+kubectl apply -f https://raw.githubusercontent.com/elaph-hilful/cks-course-environment/master/cluster-setup/weave.yaml
+
 
 echo "Waiting for weave-net to be ready..."
 sleep 10
